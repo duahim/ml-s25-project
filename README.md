@@ -4,6 +4,23 @@
 
 This project is part of `CS 6140 - Machine Learning` for Spring 2025 and aims to build a Recommendation System.
 
+Level 1: Content-based filtering (level1_content_based.py)
+Level 2: Collaborative filtering (level2_cf.py)
+Level 3: Matrix factorization (level3_matrix_factorization.py)
+
+
+Data Processing Pipeline:
+    - Data Conversion:
+        - Converts raw JSON files (Yelp academic dataset) to CSV format
+        - Handles business, reviews, users, and check-in data
+
+Data Preprocessing:
+    - Cleans and transforms the data for recommendation algorithms
+    - Creates separate files for ratings and review text
+    - Options for testing with smaller subsamples
+
+
+
 ## Project Structure
 
 ```
